@@ -1,0 +1,20 @@
+#logs
+
+logs
+*.logs
+
+
+#node module
+
+frontend/node_modules/
+backend/node_modules/
+frontend/shop/
+
+
+
+#env
+
+frontend/.env
+backend/.env
+
+.DS_Store
