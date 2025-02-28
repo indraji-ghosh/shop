@@ -17,7 +17,7 @@ dotenv.config()
 const app = express()
 app.use(express.json())
 app.use(cors())
-app.use(cors({ origin: 'https://shop-39b8.vercel.app/' }));
+app.use(cors({ origin: '*' }));
 connectDB()
 
 const PORT = process.env.PORT || 3000
