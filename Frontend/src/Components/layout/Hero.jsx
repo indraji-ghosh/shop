@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/bg.jpg'
+import heroImg from '/bg.jpg'
 import { Link } from 'react-router-dom'
 
 
